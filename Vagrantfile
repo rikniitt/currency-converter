@@ -13,6 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty32"
   config.vm.hostname = "currency-box"
   config.vm.provision "shell", path: "vagrant_provision.sh"
+  config.vm.provision "shell", path: "vagrant_install.sh", privileged: false
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

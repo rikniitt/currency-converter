@@ -1,4 +1,10 @@
+/vendor
+/node_modules
+.env
+
 *~
 *.lock
 *.log
 .vagrant/
+
+composer.phar

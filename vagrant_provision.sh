@@ -38,6 +38,8 @@ chown vagrant:vagrant /home/vagrant/.my.cnf
 
 # Install PHP
 apt-get install -y php5 libapache2-mod-php5 php5-mcrypt php5-curl
+php5enmod mcrypt
+service apache2 restart
 
 # Some apache config stuff
 mv /etc/apache2/mods-enabled/dir.conf /etc/apache2/mods-enabled/dir.conf.old 
