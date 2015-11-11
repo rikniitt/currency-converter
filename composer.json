@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "rikniitt/currency-converter",
+	"description": "Simple currency converter application",
+	"keywords": ["prototype", "GUI"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
