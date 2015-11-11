@@ -99,7 +99,7 @@
             <p>
                 <small>
                     Valuuttamuunnos on laskettu käyttäen euron kursseja, joita julkaisee 
-                    <a href="http://www.ecb.europa.eu/stats/exchange/eurofxref/html/index.en.html" target="_blank">European Central Bank</a>
+                    <a href="http://www.ecb.europa.eu/stats/exchange/eurofxref/html/index.en.html" target="_blank">Euroopan keskuspankin</a>
                     <a href="http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml" target="_blank">API</a>.
                 </small>
             </p>
@@ -170,8 +170,8 @@
             });
 
             // Set default selections on load.
-            setSelected($('#currency-1 option'), 'EUR Euro');
-            setSelected($('#currency-2 option'), 'USD US dollar');
+            setSelected($('#currency-1 option'), 'USD US dollar');
+            setSelected($('#currency-2 option'), 'EUR Euro');
             $('#value-1').trigger('keyup');
 
         })(jQuery);
