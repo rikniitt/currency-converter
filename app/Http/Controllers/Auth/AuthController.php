@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace CurrencyConverter\Http\Controllers\Auth;
 
-use App\User;
+use CurrencyConverter\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use CurrencyConverter\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

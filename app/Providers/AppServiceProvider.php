@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace CurrencyConverter\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace CurrencyConverter\Jobs;
 
 use Illuminate\Bus\Queueable;
 
