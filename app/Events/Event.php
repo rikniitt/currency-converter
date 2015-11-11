@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace CurrencyConverter\Events;
 
 abstract class Event {
 

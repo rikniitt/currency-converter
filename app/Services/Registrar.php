@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace CurrencyConverter\Services;
 
-use App\User;
+use CurrencyConverter\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
