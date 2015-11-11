@@ -14,6 +14,9 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \CurrencyConverter\Console\Commands\Inspire::class,
+        \CurrencyConverter\Console\Commands\CheckStyle::class,
+        \CurrencyConverter\Console\Commands\FetchCurrencyRates::class,
+        \CurrencyConverter\Console\Commands\StartServer::class
     ];
 
     /**

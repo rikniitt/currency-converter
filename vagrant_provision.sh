@@ -23,7 +23,7 @@ service apache2 restart
 # Install mysql
 debconf-set-selections <<< "mysql-server mysql-server/root_password password $MYSQL_ROOT_PASSWORD"
 debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $MYSQL_ROOT_PASSWORD"
-apt-get -y install mysql-server php5-mysqld
+apt-get -y install mysql-server php5-mysql mysql-client
 touch /home/vagrant/.my.cnf
 cat > /home/vagrant/.my.cnf <<EOL
 [mysql]

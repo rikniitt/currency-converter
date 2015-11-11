@@ -43,6 +43,19 @@ $app->singleton(
 
 /*
 |--------------------------------------------------------------------------
+| Bind Custom Interfaces
+|--------------------------------------------------------------------------
+|
+| @see http://laravel.com/docs/5.1/container
+|
+*/
+$app->bind(
+	CurrencyConverter\Libraries\CurrencyRateApi\Client\Client::class,
+	CurrencyConverter\Libraries\CurrencyRateApi\Client\ECPClient::class
+);
+
+/*
+|--------------------------------------------------------------------------
 | Return The Application
 |--------------------------------------------------------------------------
 |
