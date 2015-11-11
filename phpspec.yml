@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: CurrencyConverter
-        psr4_prefix: CurrencyConverter
-        src_path: app
