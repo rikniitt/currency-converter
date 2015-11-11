@@ -1,18 +1,22 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "rikniitt/currency-converter",
+    "description": "Simple currency converter prototype application.",
+    "keywords": ["prototype", "GUI"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.1.*",
+        "laravelcollective/annotations": "5.1.*",
+        "doctrine/dbal": "^2.5",
+        "illuminate/html": "^5.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~4.0",
-        "phpspec/phpspec": "~2.1"
+        "phpspec/phpspec": "~2.1",
+        "squizlabs/php_codesniffer": "1.*"
     },
     "autoload": {
         "classmap": [
