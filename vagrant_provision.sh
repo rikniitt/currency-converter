@@ -2,11 +2,10 @@
 
 ## Vagrant provision script, which
 #  is going install required software
-#  and packages to "ubuntu/trusty32" 
+#  and packages to "ubuntu/trusty32"
 #  vagrant base box.
 
-# Settings
-MYSQL_ROOT_PASSWORD="secret"
+MYSQL_ROOT_PASSWORD=$1
 
 # Update package index
 apt-get -y update
@@ -61,7 +60,3 @@ cat > /etc/apache2/sites-available/currency.conf <<EOL
 EOL
 a2dissite 000-default.conf && a2ensite currency.conf && service apache2 restart
 usermod -aG vagrant www-data
-
-# Install nodejs
-apt-get install -y nodejs npm
-ln -s "$(which nodejs)" /usr/bin/node
