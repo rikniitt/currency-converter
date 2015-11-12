@@ -19,7 +19,8 @@ php composer.phar install --no-interaction --no-progress
 # Create database
 mysql -hlocalhost -uroot -p"$MYSQL_ROOT_PASSWORD"  -e"CREATE DATABASE currconv"
 
-# Edit config file
+# Edit and create config file
+cp .env.example .env
 cp .env .env.temp
 sed -e "s/DB_DATABASE=homestead/DB_DATABASE=currconv/g" < .env.temp > .env
 cp .env .env.temp
