@@ -2,9 +2,6 @@
 
 PHP-Laravel simple currency converter application.
 
-Created as second iteration Hi-Fi prototype for 
-[prototypes in user-interface design seminar](http://www.cs.helsinki.fi/courses/58315301/2015/s/s/1) paper on prototypes in user-centered design.
-
 ## Requirements
 
 - PHP >= 5.5.9
